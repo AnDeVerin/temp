@@ -1,0 +1,45 @@
+.page {
+  padding: 0 40px;
+}
+
+.hero {
+  max-width: 1080px;
+  padding: 80px 0;
+  margin: auto;
+  background: right / contain url(./img/bluprint1.svg) no-repeat;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero__title {
+  margin-top: auto;
+  width: 80%;
+}
+
+.cards {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.my-card__title {
+  height: 200px;
+  color: white;
+}
+
+.my-card__title--work {
+  background-image: url(./img/pic1.jpeg);
+}
+
+.my-card__title--cooperate {
+  background-image: url(./img/pic2.jpeg);
+}
+
+.my-card__title--benefit {
+  background-image: url(./img/pic3.jpg);
+}
